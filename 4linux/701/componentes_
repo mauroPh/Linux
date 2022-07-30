@@ -1,0 +1,19 @@
+#gateway: 
+#É o cara popular da faculdade. o cara que te conecta em outras tribos, novas redes.
+#ele da acesso a outras redes,ou seja,a internet.
+#comandos usados:
+ip route
+ifconfig
+route -n 
+#broadcast : um fala , tds ouvem. Quando precisa fazer uma descoberta na rede. Pai que assobiava
+#mascara de rede : separa endereços de rede para endereços de host;Dependendo da mascara vc sabe o numero x de computadores e de redes.
+#se divide em classes A,B,C,D e E.
+#Endereço IP é um numero de 4 octetos-representam 32 bits
+#/24 - 255.255.255.0   - 11111111.11111111.11111111.0
+#/26 - 255.255.255.192 - 11111111.11111111.11111111.11.000000
+#	128 | 64 | 32 | 16 | 4 | 2 | 1
+#  	  1 |  1 |  1 |  1 | 1 | 1 | 1
+vi /etc/resolv.conf
+vi /etc/hosts
+#usado para ataques dns poisoning - o arquivo resolve os endereços e nomes vc configura o endereço para onde direcionar quando digitar no browser
+ 
