@@ -13,3 +13,7 @@
 #Há ainda como ligar e desligar uma interface de rede utilizando os comandos:
 #ifup virbr0 -> Liga a interface de rede de nome virbr0;
 #ifdown virbr0 -> Desliga a interface de rede de nome virbr0;
+
+
+#route -n
+#utilizado para exibir as rotas ativas de um host com a rede, e serve também para adicionar uma rota estática a ser seguida. Para listar as rotas do dispositivo com a rede
